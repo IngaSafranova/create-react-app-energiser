@@ -1,0 +1,37 @@
+/* The below is for just image */
+#energiser1 {
+    position: relative;
+    }
+    
+    #energiser1 img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+    
+    #energiserText {
+      /* font-family: Arial, Helvetica, sans-serif; */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bolder;
+      text-align: center;
+      display: flex;
+      font-size: 30px;
+      background: #79a863;
+      color: white;
+      border-radius: 20px;
+      /* border: 2px solid red; */
+      
+    }
+    
+    .energiserimage {
+      padding-left: 10px;
+      /* border: 2px solid red; */
+    }
+    
+    .flexcontainer {
+      width: 50%;
+      top: 15%;
+      margin-left: 65px;
+      position: absolute;
+    }

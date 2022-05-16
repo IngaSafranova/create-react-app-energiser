@@ -1,0 +1,27 @@
+/* #button1{
+border: 5px solid gold;
+height: auto;
+width: 500px;
+position: absolute;
+left: 670px;
+top: 300px;
+background: transparent;
+}
+#button1 button{
+    height: auto;
+    width: 100%;
+    background:transparent;
+    padding: 0px;
+    border: white;
+}
+#button1 img{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    content: auto;
+    border-radius: 100px;
+    border: 5px solid red;
+    display: block;
+} */
