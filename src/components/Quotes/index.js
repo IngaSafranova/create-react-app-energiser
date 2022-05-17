@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "./styles.css";
 import React from "react";
 import { useState, useEffect } from "react";
@@ -20,7 +21,7 @@ function Quotes({ id }) {
 
   useEffect(() => {
     fetchQuote();
-  }, [id]);
+  }, [fetchQuote, id]);
 
   
   return (

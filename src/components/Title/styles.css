@@ -1,0 +1,9 @@
+#title1 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* position: absolute; */
+    left: 100px;
+    bottom: 200px;
+    /* border: 2px solid red; */
+  }

@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react-hooks/exhaustive-deps */
 import "./styles.css";
 import React from "react";
 import energiserImage from "./Energiser.png";
@@ -22,7 +24,7 @@ function Energisers({ id }) {
 
   useEffect(() => {
     fetchEnergiser();
-  }, [id]);
+  }, [fetchEnergiser, id]);
 
 
   return (

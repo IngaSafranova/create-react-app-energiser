@@ -1,0 +1,31 @@
+#reminder1 img {
+    width: 84%;
+    height: auto;
+    object-fit: contain;
+    /* border: 2px solid red; */
+  }
+  
+  #reminderText {
+    /* position: absolute; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    color: white;
+    background: #97096f;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+  }
+  
+  .reminderscontainer{
+    width: 9.5%;
+    top: 61.8%;
+    margin-left: 225px;
+    position: absolute;
+  }
+  
+    
+  
+  
