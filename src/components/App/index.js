@@ -44,7 +44,11 @@ function App() {
             {/* <button onClick={handleClick}>
               <img src={buttonImage} alt="title" />
             </button> */}
-            <Button handleClick={handleClick} buttonImage={buttonImage} text="Zen"/>
+            <Button
+              handleClick={handleClick}
+              buttonImage={buttonImage}
+              text="Zen"
+            />
           </div>
           <Energisers text="Energise!" id={id}></Energisers>
         </div>
